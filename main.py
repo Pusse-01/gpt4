@@ -3,7 +3,7 @@ import streamlit as st
 
 st.title("ChatGPT-GPT_4")
 
-openai.api_key = st.secrets["OPENAI_API_KEY"]
+openai.api_key = st.secrets["KEY"]
 
 if "openai_model" not in st.session_state:
     st.session_state["openai_model"] = "gpt-4-0613"
